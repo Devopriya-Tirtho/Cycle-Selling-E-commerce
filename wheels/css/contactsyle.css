@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(../fonts/Raleway-Regular);
+}
+
+*{
+   font-family: 'Raleway';
+   
+    
+   
+}
+body{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+/*    background-color: #F2F2F2;*/
+}
+.address{
+    background-image: url(../images/architecture-building-city-53350.jpg);
+    background-repeat: no-repeat;
+    background-position: center
+}
+.input_ {
+    overflow:hidden;
+    background-color: #ffffff;
+    
+    
+}
+label {
+
+    border: 1px solid #A9A9A9;
+    width: 100%;
+    margin: 15px 0 0 0;
+    padding: 5px;
+}
+
+input {
+    
+    margin-top: 0;
+    padding: 5px;
+    border-top: 0;
+    border-left: 1px solid #A9A9A9;
+    border-right: 1px solid #A9A9A9;
+    border-bottom: 1px solid #A9A9A9;
+
+
+}
+
+textarea {
+    border-top: 0;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;;
+}
+
+.heading p{
+    margin: 0;
+}
+
+.fname input {
+    float: left;
+    padding: 5px;
+    width: 50%;
+}
+.lname input {
+    padding: 5px;
+    width: 50%;
+}
+
+
+
+.uemail {
+    width: 100%;
+}
+
+.uphn {
+    width: 100%;
+}
+
+.umsg {
+    width: 100%;
+}
+.button_{
+    text-align: center;
+}
